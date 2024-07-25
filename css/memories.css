@@ -149,7 +149,7 @@
     border-radius: 25px;
     position: absolute;
     left: 48%;
-    bottom: 50%;
+    top: 10%;
     margin-bottom: 50%;
     overflow: hidden;
     transform-origin: center bottom;
@@ -204,7 +204,8 @@
         background-color: rgba(255, 255, 255, 1);
         position: absolute;
         left: 48%;
-        bottom: 50%;
+        bottom: 10%;
+
     }
 }
 
@@ -335,7 +336,7 @@
 
 .ly-stxt01 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     left: 5%;
@@ -385,7 +386,7 @@
 
 .ly-stxt02 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     left: 5%;
@@ -446,7 +447,7 @@
 
 .ly-stxt03 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     left: 5%;
@@ -507,7 +508,7 @@
 
 .ly-stxt04 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     left: 5%;
@@ -568,7 +569,7 @@
 
 .ly-stxt05 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     left: 5%;
@@ -629,7 +630,7 @@
 
 .ly-stxt06 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     right: 5%;
@@ -679,7 +680,7 @@
 
 .ly-stxt07 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     right: 5%;
@@ -740,7 +741,7 @@
 
 .ly-stxt08 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     right: 5%;
@@ -801,7 +802,7 @@
 
 .ly-stxt09 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     right: 5%;
@@ -862,7 +863,7 @@
 
 .ly-stxt10 {
     font-family: Microsoft YaHei;
-    font-size: 30px;
+    font-size: 25px;
     font-color: #000;
     position: relative;
     right: 5%;
@@ -991,7 +992,7 @@
 /* 盒子 */
 .ly-box11 {
     width: 15%;
-    height: 540px;
+    height: 500px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
@@ -1328,7 +1329,7 @@
 /* 盒子 */
 .ly-box22 {
     width: 15%;
-    height: 480px;
+    height: 440px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
@@ -1361,7 +1362,7 @@
     margin-left: 24px;
     position: absolute;
     right: 58%;
-    top: 28%;
+    top: 27%;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
@@ -1445,14 +1446,14 @@
     border-radius: 8px;
     position: absolute;
     left: 61%;
-    bottom: 6%;
+    top: 28%;
     overflow: hidden;
     opacity: 0.9;
     transition: all 10s;
 }
 
 .active .ly-box23 {
-    height: 490px;
+    height: 435px;
     transition-delay: 8s;
 }
 
@@ -1467,7 +1468,7 @@
     margin-left: 24px;
     position: absolute;
     right: 39%;
-    top: 28%;
+    top: 35%;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
@@ -1479,7 +1480,7 @@
     margin-left: 2px;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    transition-delay: 12s;
+    transition-delay: 15s;
 }
 
 /*文本*/
@@ -2391,14 +2392,14 @@
 
 .ly-box91 {
     width: 15%;
-    height: 400px;
+    height: 370px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     position: absolute;
     left: 42%;
-    bottom: 18%;
+    top: 20%;
     overflow: hidden;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
@@ -2446,14 +2447,14 @@
 
 .ly-box92 {
     width: 15%;
-    height: 450px;
+    height: 430px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     position: absolute;
     left: 61%;
-    bottom: 18%;
+    top: 15%;
     overflow: hidden;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
@@ -2495,14 +2496,14 @@
 
 .ly-box93 {
     width: 15%;
-    height: 370px;
+    height: 350px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     position: absolute;
     left: 80%;
-    bottom: 18%;
+    top: 18%;
     overflow: hidden;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
@@ -2527,7 +2528,7 @@
     margin-left: 24px;
     position: absolute;
     right: 20%;
-    top: 33%;
+    top: 25%;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
@@ -2543,14 +2544,12 @@
 }
 
 .ly-txt92 {
-    text-indent: 2em;
     font-family: Microsoft YaHei;
     font-size: 14px;
     font-color: #000;
     position: absolute;
     width: 80%;
     top: 7%;
-    right: 17%;
     margin-left: 5%;
     opacity: 0;
     transition: all 0.5s;
@@ -2587,14 +2586,12 @@
 }
 
 .ly-txt93 {
-    text-indent: 2em;
     font-family: Microsoft YaHei;
     font-size: 14px;
     font-color: #000;
     position: absolute;
     width: 80%;
-    top: 8%;
-    right: 17%;
+    top: 9%;
     margin-left: 5%;
     opacity: 0;
     transition: all 0.5s;
